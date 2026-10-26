@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0c0c0b">
+<meta name="description" content="Explore men's loafers, dress shoes and slides at JorSmart Shoes, Kumasi, Ghana. Order your favourite pair on WhatsApp.">
+<title>JorSmart Shoes | Men's Footwear · Kumasi</title>
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#collection">Skip to collection</a>
+<header class="site-header wrap">
+<a class="wordmark" href="#" aria-label="JorSmart Shoes home">JorSmart<span>SHOES</span></a>
+<nav aria-label="Main navigation">
+<a href="#collection">Collection</a>
+<a href="#how-to-order">How to order</a>
+</nav>
+<span class="location">Kumasi, Ghana</span>
+<button class="cart-trigger" id="open-cart" type="button" aria-haspopup="dialog" aria-controls="cart-dialog" hidden>
+<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 7h14l1 14H4L5 7Zm3 0V5a4 4 0 0 1 8 0v2"/></svg>
+Cart <span id="cart-count">0</span>
+</button>
+</header>
+<main>
+<section class="hero wrap" aria-labelledby="hero-title">
+<div class="hero-copy">
+<h1 id="hero-title">A considered<br>step.<br><em>A lasting impression.</em></h1>
+<p>Men’s footwear for the way you move.<br>Find your next pair at JorSmart Shoes, Kumasi.</p>
+<a class="button" href="#collection">Explore the Collection <span aria-hidden="true">↓</span></a>
+</div>
+<figure class="hero-figure">
+<div class="hero-image image-frame">
+<img src="images/loafer-black-white-patent.jpg" alt="Two-Tone Patent Loafer" fetchpriority="high" width="900" height="1000">
+<div class="image-fallback" aria-hidden="true">
+<span class="fallback-monogram">JS</span>
+<span>Two-Tone Patent Loafer</span>
+<small>Photography coming soon</small>
+</div>
+</div>
+<figcaption>
+<span>Two-Tone Patent Loafer</span>
+<a href="https://wa.me/233507525267?text=Hello%20JorSmart%20Shoes%2C%20I%27d%20like%20to%20order%20the%20Two-Tone%20Patent%20Loafer.%20My%20size%20is%20__.%20Is%20it%20available%3F" target="_blank" rel="noopener noreferrer">Enquire on WhatsApp <svg class="arrow-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 18 18 6M6 6h12v12"/></svg></a>
+</figcaption>
+</figure>
+<div class="hero-note">Dress shoes. Loafers. Slides.<span>Find your signature.</span></div>
+</section>
+<section class="collection wrap" id="collection" aria-labelledby="collection-title">
+<div class="section-heading">
+<h2 id="collection-title">The collection<span>.</span></h2>
+<p>Six styles. Your next step.</p>
+</div>
+<div class="collection-toolbar">
+<div class="filters" role="group" aria-label="Filter collection" hidden>
+<button type="button" data-filter="All" aria-pressed="true">All</button>
+<button type="button" data-filter="Dress Shoes" aria-pressed="false">Dress Shoes</button>
+<button type="button" data-filter="Loafers" aria-pressed="false">Loafers</button>
+<button type="button" data-filter="Slides" aria-pressed="false">Slides</button>
+</div>
+<p id="result-count" role="status" aria-live="polite" aria-atomic="true">6 styles</p>
+</div>
+<div class="product-grid" id="product-grid"></div>
+<noscript><p>Enable JavaScript to explore the collection and cart, or <a href="https://wa.me/233507525267">order on WhatsApp</a>.</p></noscript>
+</section>
+<section class="how-to-order" id="how-to-order" aria-labelledby="order-title">
+<div class="wrap order-layout">
+<div>
+<h2 id="order-title">Your next pair.<br><em>One conversation away.</em></h2>
+<p>A personal way to shop. Start with the pair you love.</p>
+</div>
+<ol class="order-steps">
+<li>
+<h3>Choose your shoe</h3>
+<p>Explore the collection and find the style that feels like you.</p>
+</li>
+<li>
+<h3>Tap to start a conversation</h3>
+<p>Select “Order on WhatsApp” on your chosen shoe. Its name is already in your message.</p>
+</li>
+<li>
+<h3>Make it yours</h3>
+<p>Share your size, then confirm availability and fulfilment details with us on WhatsApp.</p>
+</li>
+</ol>
+</div>
+</section>
+</main>
+<footer class="wrap">
+<div class="footer-main">
+<a class="wordmark" href="#">JorSmart<span>SHOES</span></a>
+<p>Men’s footwear.<br>Kumasi, Ghana.</p>
+<a class="footer-contact" href="https://wa.me/233507525267" target="_blank" rel="noopener noreferrer">Let’s find your pair <svg class="arrow-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 18 18 6M6 6h12v12"/></svg><small>WhatsApp · +233 50 752 5267</small></a>
+</div>
+<div class="footer-bottom">
+<span>© <span id="year">2026</span> JorSmart Shoes</span>
+<a href="#collection">Collection</a>
+<a href="#how-to-order">How to order</a>
+<a href="#">Back to top ↑</a>
+</div>
+</footer>
+<dialog class="product-dialog" id="product-dialog" aria-labelledby="detail-name">
+<div class="dialog-bar">
+<span>JorSmart Shoes</span>
+<button type="button" class="icon-button" data-close="product-dialog" aria-label="Close product details" autofocus>
+<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="m6 6 12 12M6 18 18 6"/></svg>
+</button>
+</div>
+<div id="detail-content"></div>
+</dialog>
+<dialog class="cart-dialog" id="cart-dialog" aria-labelledby="cart-title">
+<div class="dialog-bar">
+<h2 id="cart-title">Your cart<span class="cart-units" id="cart-units"></span></h2>
+<button type="button" class="icon-button" data-close="cart-dialog" aria-label="Close cart" autofocus>
+<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="m6 6 12 12M6 18 18 6"/></svg>
+</button>
+</div>
+<p class="cart-intro">Availability confirmed on WhatsApp.</p>
+<div id="cart-items"></div>
+<p class="store-notice" id="storage-notice" role="status"></p>
+<p class="store-notice" id="cart-status" role="status" aria-live="polite"></p>
+<div class="cart-summary">
+<div class="subtotal"><span>Subtotal</span><span class="price-slot" id="cart-subtotal">Prices confirmed on WhatsApp</span></div>
+<a class="button checkout-button" id="checkout-link" target="_blank" rel="noopener noreferrer" aria-disabled="true" tabindex="-1">Checkout on WhatsApp <svg class="arrow-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 18 18 6M6 6h12v12"/></svg></a>
+<p>Confirm availability and fulfilment details with us. Your cart stays here when you open WhatsApp.</p>
+</div>
+</dialog>
+</body>
+</html>
